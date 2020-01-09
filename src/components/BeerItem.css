@@ -1,0 +1,51 @@
+.beer-item {
+  width: 335px;
+  height: 300px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.beer-item-info {
+  width: 170px;
+  padding: 1px;
+  position: absolute;
+  right: 40px;
+}
+
+.beer-item img {
+  position: absolute;
+  left: 10px;
+  width: 70px;
+  height: auto;
+}
+
+.beer-item-info h2,
+.beer-item-info button,
+.beer-item-info p,
+.beer-item-info span {
+  margin: 0 0 0.5rem 0;
+}
+
+button {
+  background: transparent;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+button:hover,
+button:active {
+  background: #f8df00;
+  color: white;
+  border-color: white;
+}

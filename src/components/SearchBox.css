@@ -1,0 +1,13 @@
+.filter-search {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.filter-search input {
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  padding: 10px 20px;
+}
